@@ -41,7 +41,7 @@ wrangler pages deploy . --project-name edgar-ai-data-portfolio
 
 ### 使用既有網域（選做，需明確核准）
 
-不要在未確認前變更 `edgars.tools`、`whoasked.vip` 或任何既有 DNS。等 `pages.dev` 驗收完成後，才在 Cloudflare Pages 的 Custom domains 加上一個未使用的子網域，例如 `data.edgars.tools`；Cloudflare 會顯示需要建立的 DNS 記錄與衝突資訊。這一步會修改公開 DNS，因此不包含在本次預設部署流程。
+不要在未確認前變更 `edgars.tools` 或任何既有 DNS。等 `pages.dev` 驗收完成後，才在 Cloudflare Pages 的 Custom domains 加上一個未使用的子網域，例如 `data.edgars.tools`；Cloudflare 會顯示需要建立的 DNS 記錄與衝突資訊。這一步會修改公開 DNS，因此不包含在本次預設部署流程。
 
 ## 驗收清單
 
